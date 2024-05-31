@@ -1,0 +1,36 @@
+
+.footer {
+  background-color: #4a4a4a;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  clear: both;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-content p {
+  margin-bottom: 10px;
+}
+
+.footer-content span {
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .footer-content {
+    padding: 10px;
+  }
+  .footer-content p {
+    font-size: 14px;
+  }
+  .footer-content span {
+    font-size: 12px;
+  }
+}

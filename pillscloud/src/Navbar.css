@@ -1,0 +1,97 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:whitesmoke;
+  color: #111111;
+  padding: 10px 20px;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo p {
+  margin-left: 10px;
+  font-size: 1.2rem;
+}
+
+.nav-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-menu li {
+  margin-right: 20px;
+  cursor: pointer;
+  transition: color 0.3s;
+ 
+}
+
+.nav-menu li:hover {
+  color:#08ffef;
+}
+
+.nav-login button {
+  padding: 10px 20px;
+  border: 2px solid#08ffef;
+  background-color: transparent;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 50px;
+}
+
+.nav-login button:hover {
+  background-color:#08ffef;
+}
+
+.nav-login svg {
+  margin-left: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.nav-login svg:hover {
+  color:#08ffef;;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+  flex-direction: column;
+  align-items: center;
+  }
+  .nav-logo {
+  margin-bottom: 20px;
+  }
+  .nav-menu {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  }
+  .nav-menu li {
+  margin-right: 0;
+  }
+  .nav-menu li a {
+  padding: 10px;
+  }
+  .nav-login {
+  display: block;
+  margin-top: 20px;
+  }
+  .nav-login button {
+  padding: 10px 20px;
+  }
+  }
+  .nav-menu li a {
+    text-decoration: none;
+    color:rgb(38, 33, 33);
+    
+    }
+  .nav-menu li a:hover{
+    color: #08ffef;
+    }

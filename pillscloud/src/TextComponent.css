@@ -1,0 +1,35 @@
+.text-container {
+    justify-content: center;
+    align-items: center;
+    background-color:whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  button{
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+  }
+  button:hover {
+    background-color: #45a049;
+    transform: scale(1.05); /* Increase size on hover */
+  }
+  
